@@ -81,6 +81,10 @@
       <Project>{bf719063-b74f-4435-9cfa-6c0f3b2ca4a0}</Project>
       <Name>BlueHardwareInfo.Core</Name>
     </ProjectReference>
+    <ProjectReference Include="..\BlueHardwareInfo.Data\BlueHardwareInfo.Data.csproj">
+      <Project>{19de9210-7ad3-4b05-a29d-4d7af48ffd8c}</Project>
+      <Name>BlueHardwareInfo.Data</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
